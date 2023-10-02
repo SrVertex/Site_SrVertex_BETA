@@ -1,0 +1,33 @@
+header nav{
+    background-color: var(--yellow_Vertex);
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+
+.img_Title{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    justify-content: space-between
+    
+}
+
+.meerda{
+
+    flex-grow: 0;
+}
+
+
+
+.textBold{
+    font-weight: bold;
+}
+
+.titleSite{
+    display: flex;
+    align-items: center;
+}
+

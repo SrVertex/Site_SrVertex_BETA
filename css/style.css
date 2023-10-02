@@ -1,0 +1,413 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #2f2f2f;
+   --cor-de-link: #000;
+   --textColorWhite: #FFFFFFFF;
+   --yellow_Vertex: #ffc400;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgba(245, 245, 245, 1);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sessão Menu*/
+
+/*Sessão Title*/
+
+
+
+
+.text_welcome{
+    color: white;
+
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #000
+
+
+    
+}
+
+
+.text_welcomeWork {
+    color: white;
+    border: 8px;
+    text-shadow: 1px 1px 0 #000;
+}
+
+
+
+.vertexName{
+    color: var(--yellow_Vertex);
+    text-shadow: 1px 1px 0 #000;
+}
+
+.btn{
+    color: #000;
+    background-color: var(--yellow_Vertex);
+    border: 0px;
+
+}
+
+.btn-primary {
+    text-align: center;
+    border-color: black;
+}
+.btn:hover{
+    background-color:rgb(175, 114, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+.img_pcCenter{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 80%;
+}
+
+.footerColor{
+    background-color: var(--cor-de-fundo);
+}
+
+.textWhite{
+    color: white;
+}
+
+.textWhite:hover{
+    color: var(--yellow_Vertex);
+}
+
+.colorSVG{
+    background-color: var(--yellow_Vertex);
+}
+
+.fontsaw{
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+.title__container{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.continerSobreMim{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+
+.title__network{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.text_sobremim{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-right: 2rem;
+    line-height: 2.5rem;
+    text-shadow: 1px 1px 0 #717171;
+}
+
+.img_SobreMim{
+    width: 7rem;
+    height: auto;
+    padding: 0.5rem 0.8rem 0.8rem 0.8rem;
+    
+    
+}
+
+.title__network__item {
+    margin: 0.5rem;
+    margin-left: 1rem;
+
+
+    padding: 0.5rem;
+    background-color: var(--yellow_Vertex);
+}
+
+
+.title__network__item a{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+.news_recentes{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.news__container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.news_left{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linha-divisoria {
+    border: 1px solid #ccc; 
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+.news_img{
+    width: 40%;
+    height: 40%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.news_text_cotainer{
+    margin-left: 2rem;
+}
+
+.news_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.news_text{
+    padding-top: 1rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.btn_box{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+    background-color: var(--yellow_Vertex);
+    font-weight: bold;
+}
+
+
+
+
+
+
+.news_right{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.news_text_cotainerR{
+    padding-right: 2rem;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+}
+
+.skills__line{
+    display: flex;
+}
+
+.skills__title{
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.skills__box{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    width: 10%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sessão About*/
+
+section.about{
+
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
+
+
